@@ -1,46 +1,37 @@
-# Getting Started with Create React App
+# Ad Banner Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web application for generating ad banners using OpenAI's GPT-3. It comes with the following features:
 
-## Available Scripts
+## Implemented Features
 
-In the project directory, you can run:
+1. **Three Types of Ad Banners:**
+   - Instagram post, Twitter header, and story banners are supported.
+   - Dedicated components were created for each banner type to cater to a wide range of user needs.
+   - General components were designed for repeating UI elements, minimizing code duplication.
 
-### `npm start`
+2. **Radio Button Group:**
+   - Allows users to easily choose the type of banner they want to generate.
+   - Provides a simple and intuitive user experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3. **Loading Indicator:**
+   - Informs the user during the banner generation phase.
+   - Confirms to the user that their request is being processed.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+4. **Error Alert:**
+   - Alerts the user in case an error occurs during banner generation.
+   - Provides the user with the option to retry banner generation or contact technical support.
 
-### `npm test`
+5. **Generate Another Banner:**
+   - Users can generate another banner by clicking the generate button again.
+   - Offers increased flexibility to users.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to Use
 
-### `npm run build`
+Follow these steps to get started with the Ad Banner Generator:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone this repository.
+2. Install dependencies using `npm install`.
+3. Run the application in development mode with `npm start`.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to use the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to explore and test the different banner types, and enjoy the flexibility and user-friendly features provided by the application.
